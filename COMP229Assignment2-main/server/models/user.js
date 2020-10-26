@@ -10,7 +10,7 @@ let User = mongoose.Schema
             type: String,
             default: '',
             trim: true,
-            required: 'username is required'
+            required: 'Username is required'
         },
         /*
         password: 
@@ -26,7 +26,7 @@ let User = mongoose.Schema
             type: String,
             default: '',
             trim: true,
-            required: 'email address is required'
+            required: 'Email address is required'
        },
        displayName: 
        {
@@ -53,7 +53,7 @@ let User = mongoose.Schema
 
 // configure options for User Model
 
-let options = ({ missingPasswordError: 'Wrong / Missing Password'});
+let options = ({ missingPasswordError: 'Wrong Password'});
 
 User.plugin(passportLocalMongoose, options);
 
