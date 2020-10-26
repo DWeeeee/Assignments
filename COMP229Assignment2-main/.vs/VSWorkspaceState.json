@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\server",
+    "\\server\\config",
+    "\\server\\controllers",
+    "\\server\\models",
+    "\\server\\routes",
+    "\\server\\views"
   ],
+  "SelectedNode": "\\server\\views\\index.ejs",
   "PreviewInSolutionExplorer": false
 }
